@@ -1,0 +1,20 @@
+Package: lmetable
+Type: Package
+Title: Extract fixed effects from LME objects
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Kane O'Brien", "Morgan",
+      email = "mkaneobrien@gmail.com",
+      role = c("aut", "cre")
+    )
+  )
+Description: Extracts the fixed effects and confidence intervals from LME 
+            objects (mixed-effects models) and stores them in a data frame
+            which can be saved in csv format.
+Imports: nlme, utils
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Copyright: (C) 2025 Morgan Kane O'Brien  
+RoxygenNote: 7.3.2
